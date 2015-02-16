@@ -1,0 +1,38 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://seanorama.github.io/'
+  relativeLinks: 'http://seanorama.github.io/links.jsonp'
+  media: 'media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "hadoop"
+              value: "hadoop"
+            - name: "cloud"
+              value: "cloud"
+            - name: "life"
+              value: "life"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""

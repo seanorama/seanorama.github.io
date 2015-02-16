@@ -1,12 +1,39 @@
 # Site settings
 title: seanorama
-#email: seanorama+website@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   On the road to I don't know where.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://seanroberts.org" # the base hostname & protocol for your site
-twitter_username: seano
-github_username:  seanorama
+#avater: https://s.gravatar.com/avatar/b124653b19ee9dd438710a38954ed4a3?s=360
 
 # Build settings
-markdown: kramdown
+
+#email: seanorama+website@gmail.com
+avatar: https://avatars1.githubusercontent.com/u/3738610
+twitter_username: seano
+github_username: seanorama
+
+# Your disqus shortname, entering this will enable commenting on posts
+disqus:
+disqus_shortname:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+google_verify:
+
+timezone:    Europe/London
+future:      true
+highlighter: pygments
+markdown: kramdown # other options: redcarpet
+permalink: /:title/
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
