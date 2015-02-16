@@ -30,6 +30,17 @@ prose:
               value: "cloud"
             - name: "life"
               value: "life"
+      - name: "published"
+        field:
+          element: "multiselect"
+          label: "Publish"
+          placeholder: "false"
+          value: "false"
+          options:
+            - name: "true"
+              value: "true"
+            - name: "false"
+              value: "false"
       - name: date
         field:
             element: text
