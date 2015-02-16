@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Validate CloudFormation templates
 tags: 
   - cloud
