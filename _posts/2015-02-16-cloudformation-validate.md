@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 published: true
 title: Validate CloudFormation templates
 tags: 
@@ -8,7 +8,7 @@ tags:
 
 Validating `CloudFormation` templates using `boto`.
 
-This is the basics of what you need, after getting 'boto' to use your AWS credentials:
+This is the basics of what you need, assuming `boto` is already configured to use your AWS credentials:
 
 {% highlight python %}
 template = # could be in the same file, read from elsewhere or generated
@@ -37,4 +37,5 @@ if __name__ == '__main__':
     else:
         sys.stderr.write("Successfully validated template!\n")
         print(template_compressed)
- {% endhighlight %}
+{% endhighlight %}
+
