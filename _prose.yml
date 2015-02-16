@@ -14,6 +14,10 @@ prose:
         field:
           element: "hidden"
           value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "tags"
         field:
           element: "multiselect"
@@ -26,6 +30,13 @@ prose:
               value: "cloud"
             - name: "life"
               value: "life"
+      - name: date
+        field:
+            element: text
+            value: ""
+            label: Date
+            placeholder: YYYY-MM-DD HH:MM:SS
+            help: Uses 24-hour notation
     _posts/static:
       - name: "layout"
         field:
