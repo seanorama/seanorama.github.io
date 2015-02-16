@@ -1,6 +1,9 @@
 ---
 layout: blog
 published: false
+title: Validate CloudFormation templates
+tags: 
+  - cloud
 ---
 
 Validating `CloudFormation` templates using `boto`.
