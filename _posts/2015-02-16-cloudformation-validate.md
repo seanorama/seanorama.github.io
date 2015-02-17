@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Validate CloudFormation templates
+comments: true
 tags: 
   - cloud
 ---
